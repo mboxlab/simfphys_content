@@ -1,0 +1,23 @@
+"VertexlitGeneric"
+{
+"$basetexture" "models/gta4/vehicles/merit/police2_livery"
+
+"$envmap" "env_cubemap"
+"$envmapmask" "models/gta4/vehicles/vehshare/vehicle_genericmud_car_env2"
+"$envmapsaturation" "[.5 .5 .5]"
+
+"$blendtintbybasealpha" 1
+"$halflambert" 1
+
+Proxies {
+    	"ColorSlot2"
+	{
+		name "Secondary Color"
+       		resultVar $color2
+           	}
+	"ColorSlot3"
+	{
+		name "Reflection Tint"
+       		resultVar $envmaptint
+           	}
+}
