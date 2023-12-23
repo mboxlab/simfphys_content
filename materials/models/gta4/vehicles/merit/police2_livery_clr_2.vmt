@@ -9,15 +9,4 @@
 "$blendtintbybasealpha" 1
 "$halflambert" 1
 
-Proxies {
-    	"ColorSlot2"
-	{
-		name "Secondary Color"
-       		resultVar $color2
-           	}
-	"ColorSlot3"
-	{
-		name "Reflection Tint"
-       		resultVar $envmaptint
-           	}
 }
